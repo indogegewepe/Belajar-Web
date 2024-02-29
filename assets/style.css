@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: #4d248e;
+    background: rgb(77,36,142);
+    background: linear-gradient(125deg, rgba(77,36,142,1) 0%, rgba(35,16,65,1) 100%);
 }
 
 nav {
@@ -20,7 +21,8 @@ nav {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     border-radius: 10px;
-    background-color: #231041;
+    background: rgb(35,16,65);
+    background: linear-gradient(125deg, rgba(35,16,65,1) 0%, rgba(77,36,142,1) 100%);
     /* position: -webkit-sticky;
     position: sticky;
     top: 0; */
@@ -125,7 +127,7 @@ ul li{
     height: 80vh;
 }
 
-aside{
+#home aside{
     width: 140%;
     text-align-last: right;
 }
@@ -133,6 +135,15 @@ aside{
 @media screen and (max-width: 768px) {
     aside {
         display: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer div{
+        width: 80%;
+        align-self: center;
     }
 }
 
@@ -170,12 +181,13 @@ article h1 span{
 }
 
 .title, 
-.keterangan{
+.keterangan {
     width: 80%;
 }
 
 .title h1,
-.keterangan h3 {
+.keterangan h3,
+div h3{
     color: #eca4fe;
 }
 
@@ -187,6 +199,14 @@ article h1 span{
 .title h1, 
 .title h2, 
 .keterangan h3, 
-.keterangan p{
+.keterangan p,
+div h3 {
     padding: 10px 0 ;
+}
+
+footer{
+    background-color: #231041;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
 }
