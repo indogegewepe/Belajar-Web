@@ -45,22 +45,17 @@ ul li{
     padding: 0 10px;
 }
 
-#home{
-    display: flex;
-    width: 80%;
-    align-items: center;
-    margin: auto;
-    height: 80vh;
-}
-
-aside{
-    width: 140%;
-}
-
-@media screen and (max-width: 768px) {
-    aside {
-        display: none;
-    }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: -webkit-fill-available;
+    border-radius: 0px ;
+    -webkit-border-radius: 0px ;
+    -moz-border-radius: 0px ;
+    -ms-border-radius: 0px ;
+    -o-border-radius: 0px ;
+    padding: 26px;
+    margin: 0;
 }
 
 .dropbtn {
@@ -121,9 +116,28 @@ aside{
     }
 }
 
+
+#home{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    height: 80vh;
+}
+
+aside{
+    width: 140%;
+    text-align-last: right;
+}
+
+@media screen and (max-width: 768px) {
+    aside {
+        display: none;
+    }
+}
+
 img{
     width: 60%;
-    float: right !important;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;

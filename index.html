@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bagas Uwaidha</title>
+    <title>Titanium Game Shop</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <header>
         <!-- begin navbar section -->
-        <nav>
+        <nav id="navbar">
             <a id="logo" href="#">Titanium</a>
             <ul>
                 <li>
@@ -67,22 +67,22 @@
             </div>
             <div class="keterangan">
                 <h3>
-                    Bayar dalam hitungan detik
+                    Pay in seconds
                 </h3>
                 <p>
-                    Hanya dibutuhkan beberapa detik saja untuk menyelesaikan pembayaran di Codashop karena situs kami berfungsi dengan baik dan mudah untuk digunakan.
+                    It only takes a few seconds to complete a payment on Codashop because our site works well and is easy to use.
                 </p>
                 <h3>
-                    Pengiriman instan
+                    Instant delivery
                 </h3>
                 <p>
-                    Ketika kamu melakukan top-up di Codashop, item atau barang yang kamu beli akan selalu dikirim ke akun kamu secara instan dan cepat, tanpa tertunda.
+                    When you top-up on Codashop, the items or items you buy will always be sent to your account instantly and quickly, without delay.
                 </p>
                 <h3>
-                    Metode pembayaran terbaik
+                    Best payment method
                 </h3>
                 <p>
-                    Kami menawarkan begitu banyak pilihan pembayaran mulai dari potong pulsa, e-wallet, bank transfer, dan pembayaran di mini market terdekat.
+                    We offer many payment options ranging from credit cuts, e-wallets, bank transfers, and payments at the nearest mini market.
                 </p>
                 
             </div>
@@ -94,8 +94,43 @@
 
     <!-- footer section -->
     <footer>
-        
+        <div class="footer content-one">
+            <h3>Titanium</h3>
+        </div>
+        <div class="footer content-two">
+            <h3>Customer Service</h3>
+            <p>Customer service</p>
+            <p>Contact us</p>
+            <p>Terms and condition</p>
+            <p>Privacy policy</p>
+        </div>
+        <div class="footer content-three">
+            <h3>Follow US on</h3>
+            <p>Facebook</p>
+            <p>Youtube</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+        </div>
+        <div class="footer content-four">
+            <h3>Get More Benefits: Join Our Referral Program Now!</h3>
+            <p>Get rewarded by sharing the love! Invite friends and get a discount of 2500 IDR after your friend makes their first purchase of a Topup product! Visit our FAQ and T&Cs to learn more about our referral program, and start earning rewards now.</p>
+        </div>
     </footer>
     <!-- end of footer section -->
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+        </script>
 </body>
 </html>
