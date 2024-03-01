@@ -4,4 +4,4 @@
 
 ## Preview Website
 
-http://wonosobo.great-site.net/
+https://indogegewepe.github.io/Belajar-Web/
