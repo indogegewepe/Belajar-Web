@@ -133,7 +133,7 @@ ul li{
 
 #home aside{
     width: 140%;
-    text-align-last: right;
+    text-align: right;
 }
 
 @media screen and (max-width: 768px) {
