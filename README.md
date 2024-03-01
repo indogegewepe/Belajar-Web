@@ -1,6 +1,6 @@
 # Titanium
  
-![Titanium](https://github.com/indogegewepe/Wonosobo/blob/main/assets/img/Untitled.png)
+![Titanium](https://github.com/indogegewepe/Belajar-Web/blob/main/assets/Untitled.png)
 
 ## Preview Website
 
