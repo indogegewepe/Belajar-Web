@@ -101,6 +101,9 @@ ul li{
     .dropdown-content {
     display: none;
     position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
     z-index: 1;
     text-align-last: center;
     backdrop-filter: blur(10px);
